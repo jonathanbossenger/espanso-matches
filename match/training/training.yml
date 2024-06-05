@@ -1,0 +1,51 @@
+matches:
+- trigger: ":bloom"
+  replace: "https://make.wordpress.org/training/handbook/guidelines/blooms-taxonomy/"
+
+- trigger: ":lwp"
+  replace: "https://learn.wordpress.org/"
+
+- trigger: ":mt"
+  replace: "https://make.wordpress.org/training/"
+
+- trigger: ":cdt"
+  replace: "# Details\n
+              \n
+              - Content type (Online Workshop, Lesson, Course, Tutorial, or Lesson Plan): Lesson\n
+              - Content title: \n
+              - Topic description: \n
+              - Audience (User, Developer, Designer, Contributor, etc.): Developer\n
+              - Experience Level (Beginner, Intermediate, Advanced, Any): \n
+              \n
+              # Learning Objectives\n
+              <!--\n
+              What will the learner be able to do as a result of this content?\n
+              -->\n
+              \n
+              # Related Resources and Other Notes\n
+              \n
+              ### Automation Code\n
+              <!-- \n
+              Under this comment, type two slashes (//) followed by the code that represents the content type. (Like //example) \n
+              - Online Workshop = online-workshop\n
+              - Lesson = lesson\n
+              - Course = course\n
+              - Tutorial = tutorial\n
+              - Lesson Plan = teach\n
+              Once submitted, that code will add a new comment to the issue with the relevant development checklist.\n
+              -->\n
+              //lesson"
+
+- trigger: ":ow"
+  replace: "## Online Workshop Details\n
+          - Date:\n
+          - Meetup.com event link:\n
+          - Co-host: \n
+          \n
+          ## Online Workshop Development Checklist\n
+          - [ ] Create Online Workshop event on [Learn WordPress Online Workshops](https://www.meetup.com/learn-wordpress-online-workshops/)\n
+          - [ ] Add Online Workshop to [Online Workshop calendar](https://learn.wordpress.org/online-workshops/)\n
+          - [ ] Assign [a Co-host](https://make.wordpress.org/training/handbook/online-workshops/co-hosting-an-online-workshop/) to event (Remove the \"Needs Co-host\" tag from issue once assigned)\n
+          - [ ] Hold Online Workshop\n
+          - [ ] Complete [After an Online Workshop](https://make.wordpress.org/training/handbook/online-workshops/after-an-online-workshop/) next steps\n
+          - [ ] Add link to slides and/or WordPress.tv video to GitHub issue"
