@@ -1,0 +1,6 @@
+matches:
+  - trigger: "useufl"
+    replace: "useful"
+
+  - trigger: "descion"
+    replace: "decision"

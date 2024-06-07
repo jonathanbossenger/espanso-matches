@@ -8,6 +8,9 @@ matches:
 - trigger: ":mt"
   replace: "https://make.wordpress.org/training/"
 
+- trigger: ":gl"
+  replace: "https://github.com/WordPress/learn/"
+
 - trigger: ":cdt"
   replace: "# Details\n
               \n
