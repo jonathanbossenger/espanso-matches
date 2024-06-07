@@ -1,0 +1,7 @@
+matches:
+  - trigger: ":sync"
+    replace: "rsync -rP ~/Content/Learning\ Pathways jonathan@192.168.0.118:~/Content/Learning\ Pathways/"
+
+    
+    
+    

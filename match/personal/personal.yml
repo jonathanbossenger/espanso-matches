@@ -4,3 +4,5 @@ matches:
 
   - trigger: "descion"
     replace: "decision"
+
+
