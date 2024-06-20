@@ -11,6 +11,21 @@ matches:
 - trigger: ":gl"
   replace: "https://github.com/WordPress/learn/"
 
+- trigger: ":gbdlp"
+  replace: "https://github.com/WordPress/Learn/issues/1984"
+
+- trigger: ":gtdlp"
+  replace: "https://github.com/WordPress/Learn/issues/2045"
+
+- trigger: ":gpdlp"
+  replace: "https://github.com/WordPress/Learn/issues/2044"
+
+- trigger: ":gadlp"
+  replace: "https://github.com/WordPress/Learn/issues/2344"
+
+- trigger: ":bdlp"
+  replace: "https://learn.wordpress.org/course/beginner-wordpress-developer/"
+
 - trigger: ":cdt"
   replace: "# Details\n
               \n
