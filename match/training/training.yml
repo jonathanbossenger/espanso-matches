@@ -67,3 +67,6 @@ matches:
           - [ ] Hold Online Workshop\n
           - [ ] Complete [After an Online Workshop](https://make.wordpress.org/training/handbook/online-workshops/after-an-online-workshop/) next steps\n
           - [ ] Add link to slides and/or WordPress.tv video to GitHub issue"
+
+- trigger: ":ytd"
+  replace: "View this lesson and others in this course at Learn WordPress:\n"
