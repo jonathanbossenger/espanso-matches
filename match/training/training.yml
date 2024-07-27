@@ -26,6 +26,10 @@ matches:
 - trigger: ":bdlp"
   replace: "https://learn.wordpress.org/course/beginner-wordpress-developer/"
 
+
+- trigger: ":eng"
+  replace: "English"
+
 - trigger: ":cdt"
   replace: "# Details\n
               \n
@@ -70,3 +74,6 @@ matches:
 
 - trigger: ":ytd"
   replace: "View this lesson and others in this course at Learn WordPress:\n"
+
+- trigger: ":wpd"
+  replace: "WordPress Developer"
