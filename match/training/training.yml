@@ -58,6 +58,41 @@ matches:
               -->\n
               //lesson"
 
+- trigger: ":ipl"
+  replace: "# Details\n
+              \n
+              - Content type (Online Workshop, Lesson, Course, Tutorial, or Lesson Plan): Lesson\n
+              - Content title: \n
+              - Topic description: \n
+              - Audience (User, Developer, Designer, Contributor, etc.): Developer\n
+              - Experience Level (Beginner, Intermediate, Advanced, Any): Intermediate\n
+              \n
+              # Prerequisites\n
+              <!--\n
+              What lessons on learn.wordpress.org should the learner have already completed?\n
+              -->\n
+              \n
+              It is assumed that the learner has already completed the following lessons:\n
+              \n
+              # Learning Objectives\n
+              <!--\n
+              What will the learner be able to do as a result of this content?\n
+              -->\n
+              \n
+              # Related Resources and Other Notes\n
+              \n
+              ### Automation Code\n
+              <!-- \n
+              Under this comment, type two slashes (//) followed by the code that represents the content type. (Like //example) \n
+              - Online Workshop = online-workshop\n
+              - Lesson = lesson\n
+              - Course = course\n
+              - Tutorial = tutorial\n
+              - Lesson Plan = teach\n
+              Once submitted, that code will add a new comment to the issue with the relevant development checklist.\n
+              -->\n
+              //lesson"
+
 - trigger: ":ow"
   replace: "## Online Workshop Details\n
           - Date:\n
