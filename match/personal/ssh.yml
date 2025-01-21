@@ -1,0 +1,8 @@
+matches:
+  - trigger: "sshmbp"
+    replace: "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOlz6iqst3rHMIf9IGb1nqHeJ2q7ZdKCJ2YNGRsKVLf6LUXMiXLKZvsDk52A256fVd7weBKoM36OMdn3wDNkr3E= AutoProxxy"
+
+  - trigger: "sshpc"
+    replace: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKYmbtVq1HQ7PgTNyIqFfWkaDQBT0KJvW6QKbfg2SkrY jonathan@jonathan-a8c-workstation"
+
+
