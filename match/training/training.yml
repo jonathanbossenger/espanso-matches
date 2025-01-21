@@ -114,3 +114,15 @@ matches:
 
 - trigger: ":wpd"
   replace: "WordPress Developer"
+
+- trigger: "cci"
+  replace: "Hi :wave:\n
+\n
+I'm reaching out because you applied to take part in the next Learn WordPress course cohort: https://make.wordpress.org/training/2024/10/13/announcing-the-next-learn-wordpress-course-cohort/\n
+\n
+I'm pleased to let you know that your cohort facilitators (@Lax Mariappan and myself) are accepting all valid applications this time round. We'll have 39 participants taking part in this cohort, the largest we've ever tackled.\n
+\n
+The cohort officially starts next week, so I would like to confirm that you're still interested in taking part. I would also like to confirm that you're available to join the weekly calls, which are happening every Wednesday at 12:00 UTC for the duration of the cohort.\n
+\n
+If you are still interested and available for the weekly calls, please let me know, and I'll add you to the cohort Slack channel to get started.\n
+"
